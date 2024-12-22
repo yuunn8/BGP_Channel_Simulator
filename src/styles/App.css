@@ -1,0 +1,58 @@
+/* ReactFlow 관련 스타일 */
+.react-flow {
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0;
+}
+
+/* 경로 기본 스타일 */
+.react-flow__edge {
+  stroke: #ddd;
+  stroke-width: 2px;
+  transition: stroke 0.3s ease;
+}
+
+/* 강조된 경로 */
+.react-flow__edge.highlighted {
+  stroke: gold;
+  stroke-width: 5px;
+}
+
+/* 경로 라벨 */
+.react-flow__edge-label {
+  font-size: 12px;
+  color: #555;
+}
+
+/* Dijkstra 알고리즘 컨트롤 버튼 스타일 */
+.dijkstra-controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dijkstra-controls button {
+  padding: 8px 15px;
+  font-size: 14px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dijkstra-controls button:hover {
+  background-color: #45a049;
+}
+
+.dijkstra-controls span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
